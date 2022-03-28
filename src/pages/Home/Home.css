@@ -1,171 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,800;1,900&family=Poppins:wght@600&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,800;1,900&family=Poppins:wght@600&family=Roboto:wght@300&display=swap");
+
 :root {
-    --primary: #F54A48;
-    --secondary: #FA982F;
-    --black: #3C3C3C;
-    --success: #34C38F;
-    --silver: #A2A2A2;
-    --gray: #7C7C7C;
-    --white: #FFFFFF;
-    --whitev2: #E5E5E5;
-    
+  --primary: #f54a48;
+  --secondary: #fa982f;
+  --black: #3c3c3c;
+  --success: #34c38f;
+  --silver: #a2a2a2;
+  --gray: #7c7c7c;
+  --white: #ffffff;
+  --whitev2: #e5e5e5;
 }
-html{
-    background:var(--whitev2) ;
+html {
+  background: var(--whitev2);
 }
 nav {
-    position: fixed;
-    display: flex;
-    top: 0;
-    width: 100%;
-    height: 120px;
-    left: 0px;
-    top: 0px;
-    background: var(--white);
-    box-shadow: 0px 2px 25px rgba(169, 169, 169, 0.2);
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  left: 0px;
+  top: 0px;
+  background: var(--white);
+  box-shadow: 0px 2px 25px rgba(169, 169, 169, 0.2);
 }
 
 .logo img {
-    position: absolute;
-    width: 38px;
-    height: 35.19px;
-    left: 180px;
-    top: 50px;
-
+  position: absolute;
+  width: 38px;
+  height: 35.19px;
+  left: 180px;
+  top: 50px;
 }
 
-.title-logo{
-    position: absolute;
-    top: 40px;
-    color: #F54A48;
-    font-weight: 600;
-    left: 208px;
-    font-size: 38px;
-    letter-spacing:-3;
+.title-logo {
+  position: absolute;
+  top: 40px;
+  color: #f54a48;
+  font-weight: 600;
+  left: 208px;
+  font-size: 38px;
+  letter-spacing: -3;
 }
 
 .btn-logout {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: justify;
-    padding: 10px;
-    width: 75px;
-    height: 38px;
-    left: 1695px;
-    top: 41px;
-    background: var(--primary);
-    border-radius: 3px;
-    color:var(--white);
-    border: 1px transparent;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  padding: 10px;
+  width: 75px;
+  height: 38px;
+  left: 1695px;
+  top: 41px;
+  background: var(--primary);
+  border-radius: 3px;
+  color: var(--white);
+  border: 1px transparent;
 }
 
- .btn-logout img{
-    padding-left: 10px;
-    margin-top: -3px;
-}
-.container-card-view1{
-    padding-left: 20%;
-    margin-top: 20%;
-    align-items: center;
-    justify-content: center; 
+.btn-logout img {
+  padding-left: 10px;
+  margin-top: -3px;
 }
 
-.container-card-view2{
-    margin-top: 20%;
-    padding-left: 25%;
-    align-items: center;
-    justify-content: center; 
-}
-.container-card-view3{
-    margin-top: 20%;
-    padding-left: 25%;
-    align-items: center;
-    justify-content: center; 
-
-
-}
-
-.card-view1 {
-    margin-top: 12%;
-    
-    position: absolute;
-    border-radius: 3px;
-    width: 45%;
-    height: 206px;
-    display: flex;
-    background: var(--white);
-     
-     
+.p1 {
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  left: 600px;
+  top: 160px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #3c3c3c;
 }
 
-.card-view2 {
-    
-    margin-top: 24%;
-    position: absolute;
-    border-radius: 3px;
-    width: 45%;
-    height: 206px;
-    display: flex;
-    background: var(--white);
-     
-     
+.search-button {
+  left: 12.5%;
+  right: 20.83%;
+  top: 12.5%;
+  bottom: 20.83%;
+  border: 2px solid #3c3c3c;
 }
 
-.card-view3 {
-    margin-top: 36%;
-    position: absolute;
-    border-radius: 3px;
-    width: 45%;
-    height: 206px;
-    display: flex;
-    background: var(--white);
-
-     
-     
+.search {
+  width: 430px;
+  height: 44px;
+  left: 745px;
+  top: 35px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+  border-radius: 3px;
 }
 
-.container-card{
-    padding-left: 25%;
+.menu {
+position: absolute;
+  width: 430px;
+  height: 44px;
+  left: 600px;
+  top: 230px;
+  box-sizing: border-box;
+  border-radius: 3px;
 }
 
-h1{
-    color: var var(--card-title);
-    font-size: 26px;
-    font-weight: 600;
-    letter-spacing: -2;    
-    left: 30px;
-    position: absolute;
-    white-space: nowrap;
+.card-p1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 20px;
+  float: left;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  width: fit-content;   
+  color: #3c3c3c;
+  
 }
-h2{
-    color: var(--font);
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: -2;
-    padding-top: 80px ;
-    padding-left: 31px;
-    white-space: nowrap;
- 
- }
 
- h3{
-    color: var(--primary);
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: -2;
-    text-align: center;
-    padding-top: 20% ;
-    padding-left: 70px;
-    white-space: nowrap;
-    background: var(--white);
-    border: 1px none;
+.card-p2 {
+  float: left;
+  margin-left: 15px;
+  line-height: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  display: block;
+  width: fit-content;  
+  height: fit-content;
+  letter-spacing: -0.02em;
+  color: #7c7c7c;
+}
 
- }
+.card-p3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 10px;
+  width: fit-content; 
+  margin-right: 35px;
+  display: flex;  
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f54a48;
+  height: 200px;
+}
 
- .container-card img{
-     position: fixed;
-     padding-left: 600px;
-     cursor: pointer;
- }
-    
+.card {
+  width: 800px;
+  height: 200px;
+  left: 560px;
+  top: 292px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 6px rgba(162, 162, 162, 0.25);
+  border-radius: 3px;
+  color: #7c7c7c;
+}
+
+.section {
+  width: 258px;
+  height: 200px;
+  float: right;
+  display: block;
+}
+
+.div-central {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
